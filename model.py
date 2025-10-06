@@ -80,7 +80,7 @@ class DAM(nn.Module):
 
 
 
-class ASPP_DUAL_ATT(nn.Module):
+class build_model(nn.Module):
     def __init__(self, in_c, out_c, rate=[3, 6, 9]):
         super().__init__()
 
